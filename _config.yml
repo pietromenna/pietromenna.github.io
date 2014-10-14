@@ -1,0 +1,26 @@
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Pietro Menna
+tagline:             'Home page'
+description:         'Pietro Menna`s space in the Internet'
+url:                 http://pietromenna.github.io
+baseurl:             /
+paginate:            5
+
+# About/contact
+author:
+  name:              Pietro Menna
+  url:               https://twitter.com/pietromenna
+  email:             pietromenna@yahoo.com
+
+# Custom vars
+version:             1.0.0
