@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Many delays"
+date:   2014-10-19 22:31:00
+categories: personal
+---
+
+It is amazing how to find time to do something is really scarce when you have a child! I could not use my computer in like 6 days.
+
+I tried to start the course at [Codecademy][1] for Javascript on the 13th this month, but could only start it today. Anyway, I found it very basic and I think it will take some time to finish it.
+
+I think I should start thinking on how to do the tic-tac-toe. Here is my plan:
+
+![tic-tac-toe](public/tic-tac-toe-plan.png "Tic Tac Toe Image")
+
+Now, I have been thinking on what would be the issues I would have:
+
+* First would be to identify the region the user clicked, but this can also be solved using the simpler solution of just using plain html buttons and it's events.
+* Second problem: identify when someone has won the game.
+* Shall I implement the AI?
+* Shall I try Unit Testing?
+
+Well, I shall better continue reading about JS! 
+
+Cheers!
+
+[1]: http://www.codecademy.com/
