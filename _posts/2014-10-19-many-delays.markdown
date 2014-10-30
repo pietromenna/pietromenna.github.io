@@ -24,4 +24,6 @@ Well, I shall better continue reading about JS!
 
 Cheers!
 
+**29-10-2014 Update:** Started actually doing the Codeacademy course. Only could do 25% so far.
+
 [1]: http://www.codecademy.com/
