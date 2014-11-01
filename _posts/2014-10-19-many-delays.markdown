@@ -26,4 +26,6 @@ Cheers!
 
 **29-10-2014 Update:** Started actually doing the Codeacademy course. Only could do 25% so far.
 
+**31-10-2014 Update:** Continuing the CodeCademy course. It is very slow, but education wise seems good! (65 %) I hope I get to finish it in this weekend!
+
 [1]: http://www.codecademy.com/
