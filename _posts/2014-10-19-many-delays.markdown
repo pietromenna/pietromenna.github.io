@@ -30,4 +30,8 @@ Cheers!
 
 **03-11-2014 Update:** Finished the course on CodeCademy! 
 
+**04-11-2014 Update:** Started the repo, meanwhile not in [GitHub][2], but in BitBucket. Check it [here][3].
+
 [1]: http://www.codecademy.com/
+[2]: http://github.com/
+[3]: http://bitbucket.org/pietromenna/tic-tac-toe/
