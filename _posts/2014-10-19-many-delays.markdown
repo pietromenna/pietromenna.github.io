@@ -28,4 +28,6 @@ Cheers!
 
 **31-10-2014 Update:** Continuing the CodeCademy course. It is very slow, but education wise seems good! (65 %) I hope I get to finish it in this weekend!
 
+**03-11-2014 Update:** Finished the course on CodeCademy! 
+
 [1]: http://www.codecademy.com/
