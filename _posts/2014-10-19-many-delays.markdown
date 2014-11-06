@@ -32,6 +32,8 @@ Cheers!
 
 **04-11-2014 Update:** Started the repo, meanwhile not in [GitHub][2], but in BitBucket. Check it [here][3].
 
+**05-11-2014 Update:** Still no GUI. Let's think about it for a minute, and then try to put into the next post!
+
 [1]: http://www.codecademy.com/
 [2]: http://github.com/
 [3]: http://bitbucket.org/pietromenna/tic-tac-toe/
