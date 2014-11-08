@@ -32,7 +32,7 @@ Cheers!
 
 **04-11-2014 Update:** Started the repo, meanwhile not in [GitHub][2], but in [BitBucket][3]. Check it [here][4].
 
-**05-11-2014 Update:** Still no GUI. Let's think about it for a minute, and then try to put into the next post!
+**05-11-2014 Update:** Still no GUI. Let's think about it for a while, and then try to put into the next post!
 
 [1]: http://www.codecademy.com/
 [2]: http://github.com/
