@@ -14,13 +14,13 @@ tagline:             'Home page'
 description:         'Pietro Menna`s space in the Internet'
 url:                 http://pietromenna.github.io
 baseurl:             /
-paginate:            5
+paginate:            3
 
 # About/contact
 author:
   name:              Pietro Menna
   url:               https://twitter.com/pietromenna
-  email:             pietromenna@yahoo.com
+  email:             pietro@menna.net.br
 
 # Custom vars
 version:             1.0.0
