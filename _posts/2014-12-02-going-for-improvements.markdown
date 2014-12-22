@@ -14,7 +14,9 @@ Browsing through the internet we can realize some good guides for Jekyll blogs. 
 
 A great guide can be found [here][1]. In this guide, [Joshua][2] breifly describes how to add comments by using [Disqus][3], how to create the archive page, how to add Google Analytics, and at last how integrate with Twitter.
 
-I will do some adjustments to this blog using this guide and latter on comment on it. There are other guides on the Internet, I read some others but I found this one to be the most straight to the point.
+I will do some adjustments to this blog using this guide and latter on comment on it. There are other guides on the Internet, I read some others but I found this [one][1] to be the most straight to the point.
+
+**Update** I followed the guide and all which was commented is now on the site and working.
 
 [1]: http://joshualande.com/jekyll-github-pages-poole/
 [2]: https://twitter.com/joshualande
