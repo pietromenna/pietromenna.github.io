@@ -25,6 +25,12 @@
       {% endif %}
     {% endfor %}
 
+    <p class="sidebar-nav-item">Contact me</p>
+
+    {% for page in site.contact %}
+      <a class="sidebar-nav-item" href="{{ page[1]  }}">{{ page[0] }}</a>
+    {% endfor %}
+
   </nav>
 
   <div class="sidebar-item">
