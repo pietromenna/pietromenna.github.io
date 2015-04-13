@@ -3,6 +3,7 @@ layout: post
 title:  "7 Days at recurse.com"
 date:   2015-04-08 23:04:00
 categories: personal
+comments_enabled: true
 ---
 
 Today my seventh day at [Recurse Center][1] is over. The idea of this postis to reflect what happened from 3rd day until today.

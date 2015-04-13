@@ -3,6 +3,7 @@ layout: post
 title:  "2 Days at recurse.com"
 date:   2015-03-31 18:14:00
 categories: personal
+comments_enabled: true
 ---
 
 Today my second day at [Recurse Center][1] is gone. The idea of this post is to be a reflection of what happened during these two days.

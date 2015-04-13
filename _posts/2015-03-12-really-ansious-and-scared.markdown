@@ -3,6 +3,7 @@ layout: post
 title:  "Getting anxious and scared. 18 days to HS"
 date:   2015-03-12 23:07:00
 categories: personal
+comments_enabled: true
 ---
 
 I am officially going to [Hacker School][1]. I must accept that some days ago I started to get anxious because of everything I need to do, in order to get set to go to NYC. But this is actually the easy part.

@@ -3,6 +3,7 @@ layout: post
 title:  "Next Iteration"
 date:   2014-11-08 10:06:00
 categories: personal
+comments_enabled: true
 ---
 
 I started coding tic-tac-toe in a very iterative way, until now there were only two sessions of one hour or so each.  
