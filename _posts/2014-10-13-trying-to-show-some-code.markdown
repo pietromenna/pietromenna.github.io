@@ -3,6 +3,7 @@ layout: post
 title:  "Trying to show some code"
 date:   2014-10-13 22:38:00
 categories: hacker_school
+comments_enabled: true
 ---
 
 I would really like to go to [Hacker School][1]. I think it is a life experience which may add a lot to me, but I do not know where to start to get there.
