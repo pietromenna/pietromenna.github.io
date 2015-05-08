@@ -21,7 +21,7 @@ The code:
 ```clojure
 (defn cracklepop [x]
   (cond
-    (= 0 (mod x 3) (mod x 4)) (println "CracklePop")
+    (= 0 (mod x 3) (mod x 5)) (println "CracklePop")
     (= (mod x 3) 0) (println "Crackle")
     (= (mod x 5) 0) (println "Pop")
     :else (println x)))
