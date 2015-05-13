@@ -2,7 +2,7 @@
 layout: post
 title:  "Half Journey"
 date:   2015-05-07 14:00:00
-categories: personal
+categories: recurse-center
 comments_enabled: true
 ---
 

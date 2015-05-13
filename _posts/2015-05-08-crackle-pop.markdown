@@ -2,7 +2,7 @@
 layout: post
 title:  "CracklePop"
 date:   2015-05-08 15:50:00
-categories: personal
+categories: recurse-center
 comments_enabled: true
 ---
 

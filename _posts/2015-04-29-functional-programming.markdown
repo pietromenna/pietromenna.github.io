@@ -2,7 +2,7 @@
 layout: post
 title:  "Functional Programming"
 date:   2015-04-29 22:21:00
-categories: personal
+categories: recurse-center
 comments_enabled: true
 ---
 
