@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Snakes & Socket.IO"
+title:  "Snakes and Socket.IO"
 date:   2015-07-02 11:15:00
 categories: recurse-center js go
 comments_enabled: true
