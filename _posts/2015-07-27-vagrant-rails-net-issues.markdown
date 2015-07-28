@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Rails 4.2, Vagrant and ... Problems!"
-date:   2015-07-27 22:26:00
-categories: recurse-center rails vagrant
+date:   2015-07-27 22:39:00
+categories: recurse-center
 comments_enabled: true
 ---
 
