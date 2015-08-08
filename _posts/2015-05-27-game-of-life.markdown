@@ -8,7 +8,7 @@ comments_enabled: true
 
 Today I paired with [Erisa][1] in order to implement the Game of Life. The code can be found [here][2].
 
-<script src="public/game_of_life.js"></script>
+<script src="/public/game_of_life.js"></script>
 
 <canvas id="canvas" width="400" height="400"></canvas>
 

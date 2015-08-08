@@ -17,7 +17,7 @@ It means forward port 3000 from the guest as if it was 3000 on the host.
 
 I started up the virtual machine and ran `rails server`. From the host I fired up Safari open address `http://localhost:3000`. I expected to see my app, but what I saw was:
 
-![CannotOpen](public/CannotOpen.jpg "Can`t connect")
+![CannotOpen](/public/CannotOpen.jpg "Can`t connect")
 
 Of course, browsing on the Internet for possible solutions was the next step. All the effort I spent Googling was in vain. In part because I looked for everything in the log which may seem like a problem, like:
 
