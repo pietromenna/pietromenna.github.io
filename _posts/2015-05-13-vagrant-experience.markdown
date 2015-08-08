@@ -31,7 +31,7 @@ As a developer (or maye a future contributor) I want to read code, write some co
 
 The diagram below shows how I could describe yesterday: at each cycle in which the installation failed I just felt sader and sader. Maybe some people would quit in the middle of the process.
 
-![DEIF](public/dev-inst-frustrating.png "DEIF Frustration")
+![DEIF](/public/dev-inst-frustrating.png "DEIF Frustration")
 
 And I have to admit, I spent **a full day** just on the negative part of the cycle!
 

@@ -16,7 +16,7 @@ Until now, all code written is useless: none other than the tests can use it.
 
 In order to fix this, next iteraction of code will be different. I will do some HTML and the UI. A quick mock up can be seen in the image below:
 
-![tic-tac-toe](public/tic-tac-toe-mockup1.png "Tic Tac Toe Mockup for UI")
+![tic-tac-toe](/public/tic-tac-toe-mockup1.png "Tic Tac Toe Mockup for UI")
 
 About the code: I am not really happy with the code I have currently, therefore I think some refactors may be needed. Luckily I have written tests which will ensure everything keeps working.
 

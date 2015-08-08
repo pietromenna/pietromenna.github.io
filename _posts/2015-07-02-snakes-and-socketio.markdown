@@ -32,7 +32,7 @@ In the case the Web Server accepts, the HTTP connection is replaced by a Web Soc
 
 For the game we went for the simplest protocol we could think of. The board after our design discussion can be seen below:
 
-![DesignSession](public/multiplayer-snake-design.jpg "Design of the Protocol image")
+![DesignSession](/public/multiplayer-snake-design.jpg "Design of the Protocol image")
 
 All the client code which handles the communication fits in less than 20 lines of code:
 

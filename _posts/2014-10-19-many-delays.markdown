@@ -11,7 +11,7 @@ I tried to start the course at [Codecademy][1] for Javascript on the 13th this m
 
 I think I should start thinking on how to do the tic-tac-toe. Here is my plan:
 
-![tic-tac-toe](public/tic-tac-toe-plan.png "Tic Tac Toe Image")
+![tic-tac-toe](/public/tic-tac-toe-plan.png "Tic Tac Toe Image")
 
 Now, I have been thinking on what would be the issues I would have:
 
