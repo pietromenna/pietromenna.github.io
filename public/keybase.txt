@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/pietromenna
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://pietro.menna.net.br
+  * I am pietromenna (https://keybase.io/pietromenna) on keybase.
+  * I have a public key with fingerprint BD93 8A43 28D6 F5F4 484E  C721 13FC 4112 22ED E1D4
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "bd938a4328d6f5f4484ec72113fc411222ede1d4",
+            "host": "keybase.io",
+            "key_id": "13fc411222ede1d4",
+            "kid": "0101b47089566ccd67a408666b7a13f733789dfecc0b338cab25c202f96974771f940a",
+            "uid": "41ab9410a29cdf7c5faea944d9edf019",
+            "username": "pietromenna"
+        },
+        "service": {
+            "hostname": "pietro.menna.net.br",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1441038065,
+    "expire_in": 157680000,
+    "prev": "fd57cfffd14e8e75c521a9276ac5841d26d3672a64dc3e5005589208d88975ce",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.43
+Comment: https://keybase.io/crypto
+
+yMM7AnicbZJrTBRXFMcXkK1QFCptMZQSOxAlFnDeD5rWgNoCH6RN2Ji4K+udmTsw
+qDu7s7MoBVZtt4KAoQJWQFmaohWITR+IFdMQEWopmm4Q+7KVCD7SKg2lXWqRgp0h
+7YcmvV9u7jm///+ec3IGl4WZIkNi/8pcgfwyfi3kcn+ux2S57Z0uQ3hFLEUyypAd
+cPGSZEchVJ2q7NCQDIQXOYIFJIGzIi1REkmyJBQYHMMISSAxDMdxKEJMJJFUpEhx
+GwrdhgdumC4rekx/2GVRj/4Pv2MxgWIoxpMMynIUTQuCSDOARFmapnkG6CKGIBiW
+EyUoCChPEKwAeJwScBSXOJpjSIbBJI5EgW7nWbQjMcBzJIYCnBNEiREoCUDAkaTI
+QVFCMc4A3VB1gF1Qp50y1FRlF3Q4AFKRiuiJElmAxhSMZv4DpS9S6Q6opfOq7uJU
+FU0RlJ06UKRpzgxDr5U6DcFuyNv/sbLzskPUB6oLSqDqlhUHkoHppKDJhjdG6qUS
+LEpTqQjc45RVaJcNgmJoFtWP8Q0s0S0lkWIESZJEjIQsZCiBwjHA4QwNBIolMRGn
+RYJmcECTokBACkUpiuVwlBVZltNpiBjNuRwKkkHrZYJC3dItFzqA5lEhUnGx37bE
+FBJpMoeHGithioyI+XdR3toUPb/io8dv16SwLx894u/YcP/9NZMpB989Gba76+Oc
+BrNtpmzmZlL58S/Q9eyaO15vDX/w0Pm8zXk2+3Yksm0uceLu1cKwefuB1s0DdZYD
+VrW7DXSmjE2Ot/rPfP722Jm1V8KEDYNPfxYY+NaWH1G7dfthLvcby7B//OiDJ6dO
+DSlbqkIGo/ipKeTcw+K4823lwwtdTeibo85VI2XvPejZW+u7UZp0x68eszZVZRX8
++P2jhFuB9n61pb6Ezz5nyTtdOaklR8xsPB5V8OGXs9he5r5TDiZmxXWbt7Um/OAq
+PYVds5+wLjnWpz3rveXpqquKf6bGvn9lUYen5GRdfl+Frd/cbv+55YavY+cLj000
+Lg82Ywuxn4ConKTwq+bRIH1vrcu/dA9iZ18LetXAXYsSTHzC1rt0Y+XCwPRcXGjv
+mAWmNSenjVRFr09TV667t/WpQik66Fp2BRl66UTnxHftP1Wjq5/b7/qq3OezPkr6
+OqdvvHdfaaDvrLV8tCr7bHF1TN7NwCVzdu3z8aDm8p/9zuqEF5tg1vKYzvpPE19t
+RA9TZF9jzEV/bHNxS86F/Ou+sc6ehmbbyELTH93FbYfS5n8fBtBrymru6QhVgr8F
+UnJno2cb3vlgOP6VVZlbel4/Xb9u2n09Ga0YWj2X1Vbwq+dh0ZHyzHiM3qdEX9p0
+wfvG0DZXZVn43/azsF0=
+=HHLT
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pietromenna
+
+==================================================================
+
