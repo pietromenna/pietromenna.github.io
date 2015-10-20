@@ -2,7 +2,7 @@
 layout: post
 title:  "Getting anxious and scared. 18 days to HS"
 date:   2015-03-12 23:07:00
-categories: personal
+categories: personal recurse-center
 comments_enabled: true
 ---
 

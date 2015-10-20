@@ -2,7 +2,7 @@
 layout: post
 title:  "2 Days at recurse.com"
 date:   2015-03-31 18:14:00
-categories: personal
+categories: personal recurse-center
 comments_enabled: true
 ---
 
