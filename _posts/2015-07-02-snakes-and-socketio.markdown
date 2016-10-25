@@ -36,7 +36,7 @@ For the game we went for the simplest protocol we could think of. The board afte
 
 All the client code which handles the communication fits in less than 20 lines of code:
 
-```javascript
+~~~ javascript
 	var socket = io();
     if (!playing) {
       socket.emit('join game','j');
@@ -70,7 +70,7 @@ All the client code which handles the communication fits in less than 20 lines o
             break;
       }
     }, false);
-```
+~~~ 
 
 ### What we could have improved ? ###
 

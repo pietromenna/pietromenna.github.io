@@ -18,7 +18,7 @@ Now I am wondering if all the *interpreted languages* just have a huge switch fo
 
 ## My interpreter code ##
 
-```javascript
+~~~javascript
 	this.run = function(){
 		while(instruction_pointer<instructions.length){
 			switch(instructions[instruction_pointer]) {
@@ -61,7 +61,7 @@ Now I am wondering if all the *interpreted languages* just have a huge switch fo
 			instruction_pointer = instruction_pointer + 1;
 		}
 	}
-```
+~~~
 
 #Live run your Brain F*ck code below #
 

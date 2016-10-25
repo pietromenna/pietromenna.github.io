@@ -22,7 +22,7 @@ We spent 9 days for the current implementation. In this subsection I would like 
 
 We used a bencoding library which was available in Rust, created the Metainfo file structure and the Info Dictionary info structure. The most important piece this day was to be able to construct the correct Request to the file. It was achieved by the code below:
 
-```Rust
+~~~Rust
 pub fn run(metainfo: Metainfo) {
     let length_string = metainfo.info.length.to_string();
     let encoded_info_hash = percent_encode(&metainfo.info_hash, FORM_URLENCODED_ENCODE_SET);
@@ -38,7 +38,7 @@ pub fn run(metainfo: Metainfo) {
     let mut client = Client::new();
     let mut res = client.get(&url).header(Connection::close()).send().unwrap();
 }
-```
+~~~
 
 **Why we went this approach?** Simply because the BitTorrent specification does not use the latest URLenconding schemes, so any library that makes requests with URLencoding ended up changing the strings we needed to send.
 
@@ -48,7 +48,7 @@ The end of the day code can be found [here][4].
 
 The Tracker Response is a bencoded dictionary, it was pretty easy to extract the information we required. The only tricky part was how peers are encoded in the response. The implementation code:
 
-```Rust
+~~~Rust
 pub struct Peer {
     pub ip: Ipv4Addr,
     pub port: u16,
@@ -61,7 +61,7 @@ impl Peer {
         Peer{ ip: ip, port: port }
     }
 }
-```
+~~~
 
 The Peers are represented in 6 bytes. The first four bytes represents the digits of the Ip address, the last two bytes represent the port number. For example: bytes (60, 7E, 68, DB, 1A, E9) refer to address: 96.126.104.219:6889.
 
@@ -75,7 +75,7 @@ We made the peer communication for Downloads and made it to download the famous 
 
 - The peer connection contained all the information of how to handle the peer communication for Downloads. In particular it knew how to handle each message a Peer can send:
 
-```Rust
+~~~ Rust
 enum Message {
     KeepAlive,
     Choke,
@@ -116,7 +116,7 @@ impl Message {
             _ => panic!("Bad message id: {}", id)
         }
     }
-```
+~~~
 
 - When saying "1 File Downloading, on 1 Peer, In-Order download", I mean that we could only download from a single peer, torrents which contained only one file, and that we requested each of the pieces/blocks in order. For example: if each piece contained 2 blocks, we would have requested piece 1, block 1, piece 1 block 2, then piece 2, block 1, and so on.
 
@@ -128,18 +128,18 @@ The cool parts begin here. We had to use two concurrent/parallel programming tec
 
 We used mutex (Exclusive Lock or Exclusive Access) for the interactions which the *Peer Connections* needed to do on the *Download* entity which were changing the status of the **Downloaded File**.
 
-```Rust
+~~~ Rust
 fn connect(peer: &Peer, download_mutex: Arc<Mutex<Download>>) -> Result<PeerConnection, Error> {
         let stream = try!(TcpStream::connect((peer.ip, peer.port)));
         let num_pieces = {
             let download = download_mutex.lock().unwrap();
             download.metainfo.info.num_pieces
         };
-```
+~~~
 
 We used channels for asynchronous calls from the *Download* to the *Peers Connections*. For example, in the case a Peer Connection finished downloading a Block, it should notify all the other Peer connections that the pieces was no longer required, and that in the case they happened to be downloading the same piece, they could cancel it. The code below:
 
-```Rust
+~~~ Rust
 fn process_message_from_download(&mut self, message: PeerMessage) -> Result<(), Error> {
         match message {
             PeerMessage::CancelRequest(piece_index, block_index) => {
@@ -153,11 +153,11 @@ fn process_message_from_download(&mut self, message: PeerMessage) -> Result<(), 
             }
         }
     }
-```
+~~~ 
 
 We also do not request one block at a time to other peers, we request ten at a time (defined as MAX_CONCURRENT_REQUESTS):
 
-```rust
+~~~ rust
 fn request_more_blocks(&mut self) -> Result<(), Error> {
     if self.am_i_choked == true {
         return Ok(())
@@ -186,7 +186,7 @@ fn request_more_blocks(&mut self) -> Result<(), Error> {
     }
     Ok(())
 }
-```
+~~~
 
 The end of the 6th day code can be found [here][9]
 
@@ -198,7 +198,7 @@ It was added support for sending *BitField* and *Have* messages and to *Upload* 
 
 An interesting Entity which was created during this day was the **Funnel** inside *Peer Connection*. The idea of the funnel is that there was an entity which was in charge of collecting all the incomming messages from the TCP socket, and also for the outgoing messages on the Channels.
 
-```Rust
+~~~ Rust
 let downstream_funnel_thread = {
     let stream = self.stream.try_clone().unwrap();
     let tx = self.incoming_tx.clone();
@@ -211,7 +211,7 @@ let upstream_funnel_thread = {
     let tx = self.incoming_tx.clone();
     thread::spawn(move || UpstreamMessageFunnel::start(stream, outgoing_rx, tx))
 };
-```
+~~~
 
 The end of the 8th day code can be found [here][10]
 

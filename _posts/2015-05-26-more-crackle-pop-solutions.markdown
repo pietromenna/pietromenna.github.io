@@ -10,23 +10,23 @@ Some weeks ago a post about "CracklePop" in which I posted two implementations. 
 
 [Mark Dominus][2]'s solution in Perl.
 
-```perl
+~~~perl
 my @num = ("") x 101;
 $num[$_*3] .= "Crackle" for 1..33;
 $num[$_*5] .= "Pop"     for 1..20;
 $num[$_] ||= $_ for 1..100;
 shift @num;  # discard element 0
 print join "\n", @num, "";
-```
+~~~
 
 [James Keene][3]'s solution.
 
-```
+~~~
 def fizzbuzz(a): 
 return [a, "Fizz", "Buzz", "FizzBuzz"][(0x1241843 >> ((a % 15) * 2)) & 3] 
 
 map(fizzbuzz,xrange(1,100))
-```
+~~~
 
 At last, with [Jeff Fowler][4]'s solution in Brain Fuck which can be found [here][5]
 
