@@ -18,7 +18,7 @@ The specs:
 
 The code:
 
-```clojure
+~~~ clojure
 (defn cracklepop [x]
   (cond
     (= 0 (mod x 3) (mod x 5)) (println "CracklePop")
@@ -27,7 +27,7 @@ The code:
     :else (println x)))
 
 (map cracklepop (range 1 101))
-```
+~~~
 
 ## Let`s try to write it different ##
 
@@ -35,7 +35,7 @@ The code:
 
 It seems crazy, right? The spec already contains 3 **ifs** statements on its own. So it is so logical to write it using *ifs* or *conditional* (switch in other languages) statements.
 
-```clojure
+~~~clojure
 (defn cracklepop [x]
   (let [solution-matrix {0 "CracklePop"
                          3 "Crackle"
@@ -47,7 +47,7 @@ It seems crazy, right? The spec already contains 3 **ifs** statements on its own
   (println (solution-matrix (mod x 15) x))))
 
 (map cracklepop (range 1 101))
-```
+~~~
 
 This solution does not use conditionals, but a "rotating matrix".
 

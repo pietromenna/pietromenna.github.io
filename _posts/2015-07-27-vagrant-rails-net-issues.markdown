@@ -10,9 +10,10 @@ I started a new personal project. I set up [Vagrant][1] so I can have the "same"
 
 The project uses [Ruby on Rails][2], so I set up the line below in the `Vagrantfile`.
 
-```Ruby
+~~~ ruby
 config.vm.network "forwarded_port", guest: 3000, host: 3000
-```
+~~~
+
 It means forward port 3000 from the guest as if it was 3000 on the host.
 
 I started up the virtual machine and ran `rails server`. From the host I fired up Safari open address `http://localhost:3000`. I expected to see my app, but what I saw was:
@@ -39,15 +40,15 @@ Of course, browsing on the Internet for possible solutions was the next step. Al
 
 I tried listening with [nc][3] (netcat) on port 3000 and making a requests from the host. Unfortunately no response again:
 
-```Bash
+~~~ Bash
 nc -l localhost 3000
-```
+~~~
 
 No matter what I sent to port 3000 on the guest, it was not reached.
 
 So nothing to do with Rails, right? **No, but yes!** I don't know why, but I read the manpage for `nc`, and found out that `-p` is for ports, by trying `nc -l -p 3000` I could reach the guest from the host on the desired port.
 
-```Bash
+~~~ Bash
 vagrant@vagrant-ubuntu-trusty-64:~$ nc -l -p 3000
 GET / HTTP/1.1
 Host: localhost:3000
@@ -58,7 +59,7 @@ User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/600.7.12
 Accept-Language: en-us
 Accept-Encoding: gzip, deflate
 Connection: keep-alive
-```
+~~~
 
 **But what does Rails have to do with it?**
 
@@ -78,7 +79,7 @@ The ip address **0.0.0.0** means **all IP addresses on the local machine**. It i
 
 Make rails listed on 0.0.0.0. This can be achieved by running rails server this way: `bin/rails server -b 0.0.0.0`, or by changing file `config/boot.rb` to include:
 
-```Ruby
+~~~ Ruby
 require 'rails/commands/server'
 
 module Rails
@@ -94,7 +95,8 @@ module Rails
     prepend new_defaults
   end
 end
-```
+~~~
+
 If you make this change, you can just use `rails server` as usual.
 
 [1]: https://www.vagrantup.com
