@@ -10,8 +10,8 @@ relative_permalinks: false
 title:               Pietro Menna
 tagline:             'Home page'
 description:         'Pietro Menna`s space in the Internet'
-url:                 http://pietromenna.github.io
-baseurl:             /
+url:                 http://pietro.menna.net.br
+baseurl:             ""
 paginate:            3
 
 # About/contact
