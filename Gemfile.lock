@@ -4,9 +4,11 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
-    ffi (1.9.18)
+    faraday (0.15.1)
+      multipart-post (>= 1.2, < 3)
+    ffi (1.11.1)
     forwardable-extended (2.6.0)
-    jekyll (3.6.2)
+    jekyll (3.6.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
@@ -17,6 +19,9 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 3)
       safe_yaml (~> 1.0)
+    jekyll-github-metadata (2.9.4)
+      jekyll (~> 3.1)
+      octokit (~> 4.0, != 4.4.0)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
@@ -29,6 +34,9 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
     multi_json (1.12.2)
+    multipart-post (2.0.0)
+    octokit (4.9.0)
+      sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.16.0)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.1)
@@ -45,15 +53,20 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    sawyer (0.8.1)
+      addressable (>= 2.3.5, < 2.6)
+      faraday (~> 0.8, < 1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  ffi (>= 1.9.24)
   jekyll
+  jekyll-github-metadata
   jekyll-paginate
   pygments.rb
   redcarpet
 
 BUNDLED WITH
-   1.16.0
+   1.16.6
