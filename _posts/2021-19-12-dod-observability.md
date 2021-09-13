@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lessons learned during a Developer on Duty: Observability"
-date:   2021-08-03 20:20:00
+date:   2021-09-12 22:20:00
 categories: personal
 comments_enabled: true
 ---
