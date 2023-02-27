@@ -7,7 +7,7 @@ title: About Me
   "(...) the Spartan Dienekes is said to have proved himself the best man of all, the same who, as they report, uttered this saying before they engaged battle with the Medes:--being informed by one of the men of Trachis that when the Barbarians discharged their arrows they obscured the light of the sun by the multitude of the arrows, so great was the number of their host, he was not dismayed by this, but making small account of the number of the Medes, he said that their guest from Trachis brought them very good news, for if the Medes obscured the light of the sun, the battle against them would be in the shade and not in the sun." - Histories, 7.226
 </p>
 
-My name is Pietro Menna. I am a Software Engineer. I am also a father and a husband.
+My name is Pietro Menna. I am a Senior Software Engineer working at [Microsoft][4]. I am also a father and a husband.
 
 In the past I worked as a Software Engineer and Engineering Manager for a [large Software company][1].
 
@@ -22,3 +22,4 @@ Thanks for reading!
 [1]: http://www.sap.com
 [2]: https://www.recurse.com
 [3]: http://manifesto.softwarecraftsmanship.org/
+[4]: https://www.microsoft.com/
